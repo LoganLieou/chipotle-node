@@ -1,5 +1,8 @@
 {
     "scripts": {
-        "start": "node src/index.js" 
+        "test": "node --test --experimental-test-coverage --test-reporter=spec --test-reporter-destination=stdout"
+    },
+    "dependencies": {
+        "usa-zipcoder": "^1.0.2"
     }
 }
